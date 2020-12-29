@@ -1,1 +1,19 @@
-
+<div class="container-fluid">
+    <div class="header">
+        <div class="row">
+            <a [routerLink]="['/welcome']">
+                <img src="assets/images/logo.png" width="70" height="70">
+                <h2>TrainTicketBooking.com</h2>
+            </a>
+            <div class="action">
+                <a [routerLink]="['/login']" id="login-button" class="btn btn-outline-primary" *ngIf="session==null">Login</a>&nbsp;&nbsp;&nbsp;
+                <a [routerLink]="['/register']" id="login-button" class="btn btn-outline-primary" *ngIf="session==null">Register</a>
+                <a class="btn btn-outline-primary" (click)="userLogout()" *ngIf="session!=null">Logout</a>&nbsp;&nbsp;
+                <a class="message" *ngIf="session!=null">Welcome, {{session}}</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
