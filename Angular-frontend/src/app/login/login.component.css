@@ -1,0 +1,17 @@
+h3
+{
+    text-align: center;
+}
+form
+{
+    width: 500px;
+}
+form div 
+{
+    margin: auto;
+    font-size: 20px;
+}
+form div b
+{
+    color: rgb(173, 19, 19);
+}
