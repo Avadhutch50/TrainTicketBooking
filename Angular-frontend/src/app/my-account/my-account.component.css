@@ -1,0 +1,53 @@
+hr
+{
+    padding: 0px;
+    margin: 0px;
+}
+div
+{
+    margin: auto;
+    margin: 0px;
+}
+ul
+{
+    margin: 0px;
+    padding: 0px;
+  list-style-type: none;  
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+li
+{
+    padding: 20px 0px 20px 20px;
+}
+li:hover
+{
+    background-color: cornflowerblue;
+}
+h3
+{
+    text-align: center;
+}
+h4
+{
+    text-align: center;
+}
+form
+{
+    float: left;
+    display: block;
+    width: 400px;
+    border: 2px dashed black;
+    background-color: antiquewhite;
+}
+form hr
+{
+    margin: 5px;
+}
+form div
+{
+    margin: auto;
+}
