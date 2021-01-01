@@ -1,0 +1,45 @@
+<div class="row" style="background-image: url('/assets/images/wall-{{num}}.jpg');
+width:101%;
+height:660px;
+background-size:cover;
+background-position:90%;">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" style="margin-top: 20px;background-color: rgba(240, 248, 255,0.8);height:620px;border-radius:5px;">
+        <hr>
+        <h3>User Registeration Form</h3>
+        <hr style="margin:0px;">
+        <form>
+            <div class="form-group row col-sm-8">
+                Full Name<b>*</b>
+                <input type="text" [(ngModel)]="user.fullName" name="fullName" class="form-control" placeholder="Enter Full Name">
+            </div>
+            <div class="form-group row col-sm-8">
+                Mobile Number<b>*</b>
+                <input type="number" [(ngModel)]="user.mobileno" name="mobileno" class="form-control" placeholder="Enter Mobile Number">
+            </div>
+            <div class="form-group row col-sm-8">
+                Date of Birth
+                <input type="date" [(ngModel)]="user.dob" name="dob" class="form-control">
+            </div>
+            <div class="form-group row col-sm-8">
+                Email ID<b>*</b>
+                <input type="email" [(ngModel)]="user.emailid" name="emailid" class="form-control" placeholder="Enter Email ID">
+            </div>
+            <div class="form-group row col-sm-8">
+                Username<b>*</b>
+                <input type="text" [(ngModel)]="user.username" name="username" class="form-control" placeholder="Enter Username">
+            </div>
+            <div class="form-group row col-sm-8">
+                Password<b>*</b>
+                <input type="password" [(ngModel)]="user.password" name="password" class="form-control" placeholder="Enter Password">
+            </div><br>
+            <div class="form-group row col-sm-8">
+            <button type="submit" (click)="registerUser()" style="margin-left:100px" class="btn btn-primary">Register</button>
+            </div><br>
+            <div class="form-group row col-sm-8">
+                <a [routerLink]="['/login']" routerLinkActive="router-link-active"  class="btn btn-primary">Already Have Account? Login here!</a>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4"></div>
+</div>
