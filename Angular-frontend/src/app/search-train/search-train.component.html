@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-md-2">
+        <ul><br>
+            <a [routerLink]="['/home']"><li>Home</li></a><hr>
+            <a [routerLink]="['/my-account']"><li>My Account</li></a><hr>
+            <a [routerLink]="['/search-train']"><li style="background-color: cornflowerblue;">Search Trains</li></a><hr>
+            <a [routerLink]="['/book-ticket']"><li>Book a ticket</li></a><hr>
+        </ul>
+    </div>
+    <div class="col-md-10" style="background-color: cornflowerblue">
+        <h3>Search Trains</h3>
+        <form>
+            <b>Train Number:</b>&nbsp;&nbsp;<input type="number" [(ngModel)]="searchByNumber" name="searchByNumber" placeholder="Search by Train Number">&nbsp;&nbsp;
+            <b>Source City:</b>&nbsp;&nbsp;<input type="text" [(ngModel)]="searchByCity" name="searchByCity" placeholder="Search By City"><br><br>
+        </form>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Train Number</th>
+                <th scope="col">Train Name</th>
+                <th scope="col">Source</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let train of trainList | filter: searchByNumber: searchByCity">
+                <th scope="row">{{train.trainNumber}}</th>
+                <td>{{train.name}}</td>
+                <td>{{train.source}}</td>
+                <td>{{train.destination}}</td>
+                <td>{{train.details}}</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
