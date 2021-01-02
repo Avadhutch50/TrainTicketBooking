@@ -1,0 +1,16 @@
+h1
+{
+    margin-left: 400px;
+    margin-top: 200px;
+    font-size: 400%;
+    color: azure;
+    text-shadow: 0 0 10px #000000, 0 0 10px #ffffff;
+}
+p
+{
+    margin-left: 600px;
+    margin-top: 0px;
+    font-size: 160%;
+    color: azure;
+    text-shadow:  0 0 10px #000000, 0 0 10px #ffffff;
+}
