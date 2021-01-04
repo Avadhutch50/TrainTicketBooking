@@ -1,0 +1,49 @@
+hr
+{
+    padding: 0px;
+    margin: 0px;
+}
+div
+{
+    margin: 0px;
+}
+ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;  
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+li
+{
+    padding: 20px 0px 20px 20px;
+}
+li:hover
+{
+    background-color: cornflowerblue;
+}
+h3
+{
+    text-align: center;
+}
+form 
+{
+    border: 2px dashed black;
+    background-color: antiquewhite;
+}
+form div
+{
+    margin: auto;
+}
+form div b
+{
+    color:  rgb(173, 19, 19);
+}
+table
+{
+    background-color: azure;
+}
