@@ -13,15 +13,14 @@
 10. Able to filter required train from list of all trains by train number and/or by source city.
 11. Able to book a ticket from user login.
 12. Field validation for Book A Ticket form.
-13. Able to check total ticket price before a booking ticket.
-14. Show My Tickets Button avaliable in user login in Book A Ticket page to view tickets previously booked by logged-in user.
-15. Tickets booked by user only visible through there login only.
-16. User can only view tickets that he/she booked through there login.
-17. Discard booking of ticket with wrong train number entered.
-18. Discard booking of ticket with less than 1 passenger entered.
-19. Logout facility to wipe out current user session.
-20. 404 - Page Not Found customer page for invalid url from user.
-21. User friendly interactive UI.
+13. Able to check total ticket price before booking a ticket.
+14. Show My Tickets Button in Book A Ticket page through user login to view tickets booked previously by logged-in user.
+15. User can only view tickets that is booked through there login only.
+16. Discard booking of ticket with wrong train number entered.
+17. Discard booking of ticket with less than 1 passenger entered.
+18. Logout facility to wipeout current user session and logout securely.
+19. Page Not Found (404) customer page for invalid url from user.
+20. User friendly interactive UI.
 
 ## Dependencies / Requirements :
 • **JDK/JRE version**	: 11+
