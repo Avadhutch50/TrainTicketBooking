@@ -31,4 +31,4 @@
 
 ## Screenshots :
 1. Screenshot 1:
-<img src="https://github.com/Avadhutch50/OnlineRechargePortal/blob/master/screenshots/ScreenShot-1.jpeg" width="800px" height="500px" alt="Screenshot 1"/>
+<img src="" width="800px" height="500px" alt="Screenshot 1"/>
