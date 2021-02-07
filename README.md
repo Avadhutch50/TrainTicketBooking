@@ -32,3 +32,6 @@
 ## Screenshots :
 1. Screenshot 1:
 <img src="" width="800px" height="500px" alt="Screenshot 1"/>
+
+2. Screenshot 2:
+<img src="" width="800px" height="500px" alt="Screenshot 1"/>
