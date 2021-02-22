@@ -22,16 +22,69 @@
 19. Page Not Found (404) customer page for invalid url from user.
 20. User friendly interactive UI.
 
+## Screenshots :
+1. Screenshot 1:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-1.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+2. Screenshot 2:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-2.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+3. Screenshot 3:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-3.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+4. Screenshot 4:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-4.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+5. Screenshot 5:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-5.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+6. Screenshot 6:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-6.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+7. Screenshot 7:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-7.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+8. Screenshot 8:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-8.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+9. Screenshot 9:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-9.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+10. Screenshot 10:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-10.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+11. Screenshot 11:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-11.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+12. Screenshot 12:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-12.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+13. Screenshot 13:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-13.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+14. Screenshot 14:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-14.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
+
+
+15. Screenshot 15:
+<img src="https://github.com/Avadhutch50/TrainTicketBooking/blob/master/Screenshots/ScreenShot-15.jpeg" width="800px" height="500px" alt="Screenshot"/>
+
 ## Dependencies / Requirements :
 • **JDK/JRE version**	: 11+
 <br>• **Database Server**	: MS SQL Server 2017
 
 ## Technology Stack :
 • **Java <br>
-
-## Screenshots :
-1. Screenshot 1:
-<img src="" width="800px" height="500px" alt="Screenshot 1"/>
-
-2. Screenshot 2:
-<img src="" width="800px" height="500px" alt="Screenshot 1"/>
